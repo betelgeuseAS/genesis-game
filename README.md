@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Installed with [TypeScript Template](https://create-react-app.dev/docs/adding-typescript/).
+
+## Install Project
+
+1. Clone or download project.
+2. Install modules: `npm i`;
+3. Run the project: `npm start`.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +47,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run lint`
+
+To run ESLint and see what errors it is pointing.
+
+### `npm run format`
+
+Provides a consistent style by analyzing code and reprinting it according to the rules.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/).
