@@ -1,0 +1,21 @@
+@import "../../../styles/vars"
+
+.navigate-button
+  text-decoration: none
+  color: $color-light-100
+  background-color: $color-warning-100
+  border-radius: $size-border-radius
+  padding: 15px 50px
+  transition: 0.3s
+
+  @media (max-width: $md)
+    margin-top: 5rem
+  
+  &:hover
+    background-color: $color-warning-80
+    
+  &:focus
+    background-color: $color-warning-120
+
+  @media (max-width: $md)
+    display: block
