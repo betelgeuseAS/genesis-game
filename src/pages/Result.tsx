@@ -13,7 +13,8 @@ export const Result: React.FC<ReactNode> = () => {
       </section>
 
       <section>
-        <AccentText>{''} earned</AccentText>
+        <AccentText className="text-size-medium text-color-muted text-mb-0">Total score:</AccentText>
+        <AccentText>${'0,000'} earned</AccentText>
         <NavigateButton to="/questions">Try again</NavigateButton>
       </section>
     </ContainerWrapper>

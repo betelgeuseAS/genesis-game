@@ -3,14 +3,23 @@
 .text
   font-weight: 600
 
-  &-size-big
-    font-size: $size-font-default * 2.8
+  &-size
+    &-big
+      font-size: $size-font-default * 2.8
 
-    @media (max-width: $md)
+      @media (max-width: $md)
+        font-size: $size-font-default * 1.6
+
+    &-medium
       font-size: $size-font-default * 1.6
 
-  &-size-medium
-    font-size: $size-font-default * 1.6
+      @media (max-width: $md)
+        font-size: $size-font-default * .9
 
-    @media (max-width: $md)
-      font-size: $size-font-default * .9
+  &-color
+    &-muted
+      opacity: .5
+
+  &-mb
+    &-0
+      margin-bottom: 0
