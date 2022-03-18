@@ -6,8 +6,8 @@ interface IAccentText {
   className?: string
 }
 
-export const AccentText: React.FC<IAccentText> = ({ children, className }) => {
+export const AccentText: React.FC<IAccentText> = ({ children, className = 'text-size-big' }) => {
   return (
-    <p className={ `text ${ className ? className : 'text-size-big' }` }>{ children }</p>
+    <p className={ `text ${ className }` }>{ children }</p>
   );
 };

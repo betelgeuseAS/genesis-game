@@ -6,7 +6,7 @@ import { NavigateButton } from '../components/ui/NavigateButton/NavigateButton';
 
 export const NotFound: React.FC<ReactNode> = () => {
   return (
-    <ContainerWrapper backgroundClass="bg-dark-5">
+    <ContainerWrapper>
       <section>
         <AccentText>404 - Not Found!</AccentText>
         <NavigateButton to="/">Go to Start</NavigateButton>

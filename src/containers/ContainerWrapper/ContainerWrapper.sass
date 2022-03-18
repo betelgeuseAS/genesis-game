@@ -4,16 +4,24 @@
   min-height: 100vh
   display: flex
   flex-direction: column
-  align-items: center
   justify-content: center
+  align-items: center
 
   &-item
     padding: 16px
     z-index: 10
+    width: 100%
     display: flex
-    justify-content: center
     align-items: center
     gap: 32px
+
+    &.justify-content
+      &-start
+        justify-content: start
+      &-center
+        justify-content: center
+      &-space-between
+        justify-content: space-between
 
     @media (max-width: $md)
       flex-wrap: wrap

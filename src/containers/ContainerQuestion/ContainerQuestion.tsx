@@ -1,9 +1,10 @@
 import React, { ReactNode, useEffect }  from 'react';
-import './QuestionsList.sass';
+import './ContainerQuestion.sass';
 import { useTypedSelector } from '../../core/hooks/useTypedSelector';
 import { useActions } from '../../core/hooks/useActions';
+import { AccentText } from '../../components/ui/AccentText/AccentText';
 
-export const QuestionsList: React.FC<ReactNode> = () => {
+export const ContainerQuestion: React.FC<ReactNode> = () => {
   const { loading, questions, error } = useTypedSelector(state => state.question);
   const { fetchQuestions } = useActions();
 
@@ -13,17 +14,17 @@ export const QuestionsList: React.FC<ReactNode> = () => {
   }, []);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <AccentText>Loading...</AccentText>;
   }
 
   if (error) {
-    return <h1>Loading error.</h1>;
+    return <AccentText>Loading error.</AccentText>;
   }
 
   return (
-    <div >
+    <div className="container-question">
       {
-        questions.map(question => <div key={ question.id }>{ question.question }</div>)
+        questions.map(question => <div key={ question.id }>{ question.title }</div>)
       }
     </div>
   );

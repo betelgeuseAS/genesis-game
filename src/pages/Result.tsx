@@ -7,7 +7,7 @@ import { NavigateButton } from '../components/ui/NavigateButton/NavigateButton';
 
 export const Result: React.FC<ReactNode> = () => {
   return (
-    <ContainerWrapper backgroundClass="bg-dark-5">
+    <ContainerWrapper>
       <section>
         <ResponsiveImage src={imageLike} alt="Like" />
       </section>
