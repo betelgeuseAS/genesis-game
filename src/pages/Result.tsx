@@ -4,8 +4,12 @@ import { ContainerWrapper } from '../containers/ContainerWrapper/ContainerWrappe
 import { ResponsiveImage } from '../components/ui/ResponsiveImage/ResponsiveImage';
 import { AccentText } from '../components/ui/AccentText/AccentText';
 import { NavigateButton } from '../components/ui/NavigateButton/NavigateButton';
+import { useTypedSelector } from '../core/hooks/useTypedSelector';
 
 export const Result: React.FC<ReactNode> = () => {
+  const { questions } = useTypedSelector(state => state.question);
+  const { current } = useTypedSelector(state => state.current);
+
   return (
     <ContainerWrapper>
       <section>
@@ -14,7 +18,7 @@ export const Result: React.FC<ReactNode> = () => {
 
       <section>
         <AccentText className="text-size-medium text-color-muted text-mb-0">Total score:</AccentText>
-        <AccentText>${'0,000'} earned</AccentText>
+        <AccentText>${ questions[current] ? new Intl.NumberFormat('en-US').format(questions[current].cost) : 0 } earned</AccentText>
         <NavigateButton to="/questions">Try again</NavigateButton>
       </section>
     </ContainerWrapper>
