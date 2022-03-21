@@ -7,7 +7,7 @@ export const fetchQuestions = () => {
   return async (dispatch: Dispatch<QuestionAction>) => {
     dispatch({ type: QuestionActionTypes.FETCH_QUESTIONS });
 
-    await axios.get('https://api.npoint.io/c020484453d9d0ed8c4d')
+    await axios.get('https://api.npoint.io/df8a1cc860dee09f3c62')
       .then(function (response) {
         dispatch({
           type: QuestionActionTypes.FETCH_QUESTIONS_SUCCESS,

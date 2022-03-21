@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProgressCost.sass';
+import classNames from 'classnames';
 
 interface IProgressCost {
   current: number;
@@ -11,7 +12,14 @@ export const ProgressCost: React.FC<IProgressCost> = ({ current, list, openMenu 
   return (
     <div className={ `progress-cost ${ openMenu && 'open' }` }>
       <ul className="list">
-        { list.map(item => <li key={ item }>${ new Intl.NumberFormat('en-US').format(item) }</li>) }
+        { list.map((item, index) =>
+          <li
+            key={ item }
+            className={ classNames({ active: list.length - 1 - current === index, muted: index > list.length - 1 - current }) }
+          >
+            ${ new Intl.NumberFormat('en-US').format(item) }
+          </li>)
+        }
       </ul>
     </div>
   );

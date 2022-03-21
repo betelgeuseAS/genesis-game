@@ -1,0 +1,266 @@
+[
+  {
+    "question": "What is the visible part of the Sun called?",
+    "cost": 500,
+    "answers": [
+      {
+        "answer": "The atmosphere",
+        "correct": false
+      },
+      {
+        "answer": "The photosphere",
+        "correct": true
+      },
+      {
+        "answer": "The stratosphere",
+        "correct": false
+      },
+      {
+        "answer": "The lithosphere",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What term describes the alignment of three celestial bodies?",
+    "cost": 1000,
+    "answers": [
+      {
+        "answer": "Sizzle",
+        "correct": false
+      },
+      {
+        "answer": "Suzerainty",
+        "correct": false
+      },
+      {
+        "answer": "Symbology",
+        "correct": false
+      },
+      {
+        "answer": "Syzygy",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the smallest planet in the solar system by mass?",
+    "cost": 2000,
+    "answers": [
+      {
+        "answer": "Earth",
+        "correct": false
+      },
+      {
+        "answer": "Jupiter",
+        "correct": false
+      },
+      {
+        "answer": "Mars",
+        "correct": false
+      },
+      {
+        "answer": "Mercury",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "How many times larger is the radius of the Sun than that of the Earth?",
+    "cost": 4000,
+    "answers": [
+      {
+        "answer": "1,025",
+        "correct": false
+      },
+      {
+        "answer": "10",
+        "correct": false
+      },
+      {
+        "answer": "4.8",
+        "correct": false
+      },
+      {
+        "answer": "109",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What two motions do all planets have?",
+    "cost": 8000,
+    "answers": [
+      {
+        "answer": "Rock and roll",
+        "correct": false
+      },
+      {
+        "answer": "Wiggle and wobble",
+        "correct": false
+      },
+      {
+        "answer": "Orbit and spin",
+        "correct": true
+      },
+      {
+        "answer": "Twist and shout",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Approximately how many miles (or kilometres) are there in a light-year?",
+    "cost": 16000,
+    "answers": [
+      {
+        "answer": "590,000 (950,000 km)",
+        "correct": false
+      },
+      {
+        "answer": "5.9 million (9.5 million km)",
+        "correct": false
+      },
+      {
+        "answer": "5.9 billion (9.5 billion km)",
+        "correct": false
+      },
+      {
+        "answer": "5.9 trillion (9.5 trillion km)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the nucleus of a comet made of?",
+    "cost": 32000,
+    "answers": [
+      {
+        "answer": "Ice, dust, and organic materials",
+        "correct": true
+      },
+      {
+        "answer": "Radio waves",
+        "correct": false
+      },
+      {
+        "answer": "Fire",
+        "correct": false
+      },
+      {
+        "answer": "Helium and water",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "The atmosphere in Mars is mostly composed of:",
+    "cost": 64000,
+    "answers": [
+      {
+        "answer": "Carbon dioxide",
+        "correct": true
+      },
+      {
+        "answer": "Helium",
+        "correct": false
+      },
+      {
+        "answer": "Oxygen",
+        "correct": false
+      },
+      {
+        "answer": "Nitrogen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these comprise the intermediate layers of a neutron star?",
+    "cost": 125000,
+    "answers": [
+      {
+        "answer": "Only neutrons",
+        "correct": false
+      },
+      {
+        "answer": "Neutrons and solid state",
+        "correct": false
+      },
+      {
+        "answer": "Neutrons and superfluid state",
+        "correct": true
+      },
+      {
+        "answer": "Neutrons and fluid state",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the clouds of interstellar gas and dust that emit light in different colors called?",
+    "cost": 250000,
+    "answers": [
+      {
+        "answer": "Emission nebulae",
+        "correct": true
+      },
+      {
+        "answer": "Planetary nebulae",
+        "correct": false
+      },
+      {
+        "answer": "Dark nebulae",
+        "correct": false
+      },
+      {
+        "answer": "Reflection nebulae",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is a group of old stars closely packed in a symmetrical form called?",
+    "cost": 500000,
+    "answers": [
+      {
+        "answer": "Galactic cluster",
+        "correct": false
+      },
+      {
+        "answer": "Globular cluster",
+        "correct": true
+      },
+      {
+        "answer": "Open cluster",
+        "correct": false
+      },
+      {
+        "answer": "Star cluster",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the dark center of a sunspot called?",
+    "cost": 1000000,
+    "answers": [
+      {
+        "answer": "Filament",
+        "correct": false
+      },
+      {
+        "answer": "Dark spot",
+        "correct": false
+      },
+      {
+        "answer": "Umbra",
+        "correct": true
+      },
+      {
+        "answer": "Penumbra",
+        "correct": false
+      }
+    ]
+  }
+]

@@ -11,6 +11,8 @@
   align-items: center
   justify-content: center
   z-index: 5
+  width: 250px
+  padding: 16px
 
   @media (max-width: $md)
     width: 100%
@@ -24,3 +26,24 @@
     margin: 0
     padding: 0
     list-style-type: none
+    text-align: center
+    width: 100%
+
+    li
+      width: 100%
+      background: $color-light-100
+      border: 1px solid $color-dark-40
+      border-radius: 12px
+      padding-top: 8px
+      padding-bottom: 8px
+      margin-bottom: 8px
+
+      &:last-child
+        margin-bottom: 0
+
+      &.active
+        border-color: $color-warning-100
+        color: $color-warning-100
+
+      &.muted
+        color: $color-dark-40
