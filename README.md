@@ -55,10 +55,6 @@ To run ESLint and see what errors it is pointing.
 
 Provides a consistent style by analyzing code and reprinting it according to the rules.
 
-### `npm test`
-
-Run tests.
-
 ## JSON Data
 Data is downloaded from [link](https://www.npoint.io/docs/df8a1cc860dee09f3c62). There you can modify them.
 
