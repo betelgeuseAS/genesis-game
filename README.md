@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Installed with [TypeScript Template](https://create-react-app.dev/docs/adding-typescript/).
+Installed with [TypeScript Template](https://create-react-app.dev/docs/adding-typescript/) and [Redux Store](https://react-redux.js.org/introduction/getting-started).
 
 ## Install Project
 
@@ -55,6 +55,40 @@ To run ESLint and see what errors it is pointing.
 
 Provides a consistent style by analyzing code and reprinting it according to the rules.
 
+## JSON Data
+Data is downloaded from [link](https://www.npoint.io/docs/df8a1cc860dee09f3c62). There you can modify them.
+
+Note! Mandatory structure:
+
+```json
+[
+  {
+    "question": "Question 1",
+    "cost": 500,
+    "answers": [
+      {
+        "answer": "Answer 1",
+        "correct": false
+      },
+      {
+        "answer": "Answer 2",
+        "correct": true
+      },
+      {
+        "answer": "Answer 3",
+        "correct": false
+      },
+      {
+        "answer": "Answer 4",
+        "correct": false
+      }
+    ]
+  }
+]
+```
+
+You can also find the JSON file `./src/core/data/questions.json`.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -62,3 +96,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 To learn TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/).
+
+To learn Redux, check out the [Redux documentation](https://react-redux.js.org/).
