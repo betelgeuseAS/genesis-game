@@ -1,1 +1,17 @@
 @import "../../styles/vars"
+
+.container-question
+  .menu-wrapper
+    display: none
+    position: absolute
+    top: 21px
+    right: 21px
+    z-index: 10
+    cursor: pointer
+
+    @media (max-width: $md)
+      display: block
+
+    img.menu
+      width: 16px
+      height: auto
